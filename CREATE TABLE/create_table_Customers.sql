@@ -1,0 +1,9 @@
+-- Membuat Table Customers
+CREATE TABLE Customers (
+  customer_id INT PRIMARY KEY AUTO_INCREMENT,
+  customer_name VARCHAR(100) NOT NULL,
+  customer_email VARCHAR(50) NOT NULL,
+  customer_address VARCHAR(100) NOT NULL,
+  creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  last_update TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);

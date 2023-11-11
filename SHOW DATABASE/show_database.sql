@@ -1,0 +1,2 @@
+-- Melihat Database
+SHOW DATABASES;
